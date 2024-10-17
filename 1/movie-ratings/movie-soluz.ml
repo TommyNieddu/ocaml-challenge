@@ -1,0 +1,2 @@
+let film v1 v2 v3 = if v1 = 5 && v2 = 5 && v3 = 5 then "Masterpiece" else if 
+  v1 = 5 && v2 = 5 && v3 <= 4 then "Highly Recommended" else if v1 <= 4 && v2 <= 4 && v3 <= 3 then "Recommended" else "Mixed Reviews";;
